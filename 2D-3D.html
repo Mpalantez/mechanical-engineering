@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>George Karaiskos- Mechanical Engineering </title>
+    <link rel="stylesheet" href="css/2D-3D.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Industrial Engineering</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="2D-3D.html">2D/3D</a></li>
+                    <li><a href="CaseStudy.html">CASE_STUDIES</a></li>
+                    <li><a href="Partners.html"> PARTNERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+
+        
+        </div>
+    
+
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 8</div>
+                        <img src="css/2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 8</div>
+                        <img src="css/3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 8</div>
+                        <img src="css/4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 8</div>
+                        <img src="css/6.jpg" style="width:100%">
+                    </div>
+
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 8</div>
+                        <img src="css/7.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 8</div>
+                        <img src="css/8.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 8</div>
+                        <img src="css/9.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">8 / 8</div>
+                        <img src="css/10.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="css/2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Ερπυστριοφόρο- απεικόνιση σε 3D">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/3.jpg" style="width:100%" onclick="currentSlide(2)" alt="Ερπύστριες">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Κουβάς Εκσκαφέα">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/6.jpg" style="width:100%" onclick="currentSlide(4)" alt="Ζάντα 19in">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/7.jpg" style="width:100%" onclick="currentSlide(5)" alt="Απεικόνιση 4χρονης μηχανής σε 2D/3D">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/8.jpg" style="width:100%" onclick="currentSlide(6)" alt="Απεικόνιση σπαστήρα σε 3D">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/9.jpg" style="width:100%" onclick="currentSlide(7)" alt="Απεικόνιση κλειδί σπαστού μηχανήματος σε 2D/3D">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="css/10.jpg" style="width:100%" onclick="currentSlide(8)" alt="Κλειδί">
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        let i;
+                        let slides = document.getElementsByClassName("mySlides");
+                        let dots = document.getElementsByClassName("demo");
+                        let captionText = document.getElementById("caption");
+                        if (n > slides.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = slides.length }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        captionText.innerHTML = dots[slideIndex - 1].alt;
+                    }
+                </script>
+               
+
+
+
+
+
+
+            
+</html>
