@@ -29,31 +29,31 @@ html, body {
 }
 
 .navbar {
-    width: 1200vw;
-    height: 75vw;
+    width: 1200px;
+    height: 75px;
     margin: auto;
 }
 
 .icon {
-    width: 500vw;
+    width: 500px;
     float: left;
-    height: 60vw;
+    height: 60px;
 }
 
 .logo {
     color: #ff7200;
-    font-size: 30vw;
+    font-size: 30px;
     font-family: Arial;
-    padding-left: 20vw;
+    padding-left: 20px;
     float: left;
-    padding-top: 10vw;
-    margin-top: 5vw
+    padding-top: 10px;
+    margin-top: 5px
 }
 
 .menu {
-    width: 500vw;
+    width: 500px;
     float: left;
-    height: 50vw;
+    height: 50px;
 }
 
 ul {
@@ -65,9 +65,9 @@ ul {
 
     ul li {
         list-style: none;
-        margin-left: 62vw;
-        margin-top: 30vw;
-        font-size: 14vw;
+        margin-left: 62px;
+        margin-top: 30px;
+        font-size: 14px;
     }
 
         ul li a {
@@ -83,7 +83,7 @@ ul {
             }
 
 .content {
-    width: 1200vw;
+    width: 1200px;
     height:auto;
     margin:auto;
     color: #c4c3c3;
@@ -91,30 +91,30 @@ ul {
 }
 
     .content .par {
-        padding-left: 20vw;
-        padding-bottom: 20vw;
+        padding-left: 20px;
+        padding-bottom: 20px;
         font-family: Arial;
-        letter-spacing: 1vw;
-        line-height: 27vw;
+        letter-spacing: 1px;
+        line-height: 27px;
     }
 
     .content h1 {
         font-family: 'Times New Roman';
-        font-size: 35vw;
-        padding-left: 20vw;
+        font-size: 35px;
+        padding-left: 20px;
         margin-top: 10%;
-        letter-spacing: 2vw;
+        letter-spacing: 2px;
     }
 
     .content .cn {
-        width: 160vw;
-        height: 40vw;
+        width: 160px;
+        height: 40px;
         background: #fff;
         border: none;
-        margin-bottom: 10vw;
-        margin-left: 20vw;
-        font-size: 18vw;
-        border-radius: 10vw;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
         cursor: pointer;
         transition: .4s ease;
     }
@@ -131,7 +131,7 @@ ul {
 
 .content span {
     color:#ff7200;
-    font-size: 20vw
+    font-size: 20px
 }
 
 
@@ -143,9 +143,9 @@ ul {
 
 .icons ion-icon {
     color: #3b59ce;
-    font-size: 30vw;
-    padding-left: 14vw;
-    padding-top: 5vw;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
     transition: 0.6s ease;
 }
 
