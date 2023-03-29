@@ -1,1 +1,1 @@
-﻿console.log(window.innerWidth)
+
